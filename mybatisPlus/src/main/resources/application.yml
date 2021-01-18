@@ -9,7 +9,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
 
 
-#sql��ӡ
+#打印sql日志
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
